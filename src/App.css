@@ -1,0 +1,110 @@
+body{
+  background-color:yellow;
+}
+.heading{
+  margin:80px 0 0 0;
+}
+
+form{
+  height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+}
+.btn3{
+  background-color:grey;
+  color:white;
+  border:none;
+  margin: 30px 0;
+  width:13vw;
+  height:6vh;
+  border-radius:12px;
+}
+.btn3:focus{
+  outline:none;
+}
+.btn3:hover{
+  background-color:turquoise;
+  color:white;
+}
+input{
+  width:40vw;
+  height:6vh;
+  font-weight:18px;
+  border-radius:12px;
+  border:none;
+  padding:0 0 0 15px;
+}
+.text{
+  margin:25px 0 10px 0;
+  font-size:20px;
+  color:grey;
+}
+.flex1{
+  background-color:black;
+  display:flex;
+  color:white;
+  justify-content:space-around;
+  width:60%;
+  height:8vh;
+  margin:0 auto;
+  border-radius:15px;
+}
+.btn1{
+  border:none;
+  background:none;
+  color:white;
+  cursor:pointer;
+  margin:auto 0;
+}
+.btn1:focus{
+  outline:none;
+}
+.btn1:hover{
+  color:turquoise;
+}
+.todoInput{
+  height:15vh;
+  margin:auto;
+  width:30.5vw;
+  border-radius:10px;
+  padding: 0 1vw;
+  border:0.5px solid turquoise;
+}
+.todoInput:focus{
+  outline:none;
+}
+.foot{
+  height:8vh;
+}
+.todoList{
+  width:45vw;
+  word-wrap:break-word;
+  background-color:white;
+  margin:auto;
+  padding:10px 20px;
+  border-radius:20px;
+}
+.edit{
+  border:none;
+  background:none;
+  color:white;
+}
+.edit:focus{
+  outline:none;
+}
+.edit:hover{
+  color:greenyellow;
+}
+.contain{
+  display:flex;
+  margin:0 0 2vh 0;
+}
+.box1{
+  background-color:white;
+}
+.image1{
+ height:91.3vh;
+ width:100%;
+}
