@@ -14,7 +14,7 @@ export default function Navbar(props){
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-        <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
+        {!props.status && <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>}
       </li>
     </ul>
     <div className="form-inline my-2 my-lg-0">

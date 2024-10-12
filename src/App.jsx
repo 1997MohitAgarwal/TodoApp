@@ -11,7 +11,7 @@ export default function App(){
       <Router>
          <Navbar status={status} setStatus={setStatus}/>
          <Routes>
-          <Route index element={<Home/>}></Route>
+          <Route index element={<Home status={status}/>}></Route>
           <Route exact path='/' element={<Home/>}></Route>
           <Route exact path='/login' element={<Login status={status} setStatus={setStatus}/>}></Route>
         </Routes>

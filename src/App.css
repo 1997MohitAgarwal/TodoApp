@@ -1,5 +1,5 @@
 body{
-  background-color:yellow;
+  background-color:black;
 }
 .heading{
   margin:80px 0 0 0;
@@ -45,7 +45,9 @@ input{
   background-color:black;
   display:flex;
   color:white;
-  justify-content:space-around;
+  justify-content:center;
+  align-items:center;
+  gap:1rem;
   width:60%;
   height:8vh;
   margin:0 auto;
@@ -84,7 +86,7 @@ input{
   background-color:white;
   margin:auto;
   padding:10px 20px;
-  border-radius:20px;
+  border-radius:5px;
 }
 .edit{
   border:none;

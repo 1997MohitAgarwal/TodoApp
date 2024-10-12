@@ -43,7 +43,7 @@ export default function Todos(){
        <div className="outer">
        <div className="flex1">
        <h3 className="my-auto">Add Your todos</h3>
-       <button className="btn1" data-toggle="modal" data-target="#exampleModal1"><i className="fa fa-plus-square fa-2x"></i></button>
+       <button className="btn1" data-toggle="modal" style={{color:"navy"}} data-target="#exampleModal1"><i className="fa fa-plus-square fa-3x"></i></button>
        </div>
          <div className="d-flex align-items-center justify-content-center flex-column mt-3">
        {todo.length > 0 ?
@@ -54,9 +54,9 @@ export default function Todos(){
                 <button data-toggle="modal" onClick={()=>handleSubTodos(i)} data-target="#exampleModal2" className="edit"><i className="fa fa-plus-square fa-2x"></i></button>
                   <div>
                  <div className="d-flex justify-content-center flex-column">
-                  {subtodo[i]?subtodo[i].map((ele)=>{
+                  {subtodo[i]?subtodo[i].map((ele,j)=>{
                   return(
-                      <div key={uuid()} className="todoList mb-2">{ele}</div>
+                      <div key={uuid()} style={{backgroundColor:"gray"}} className="todoList mb-2">{`${j+1}) ${ele}`}</div>
                       )
                   }):""}
                    </div>
